@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+
+body {
+    color: red;
+    background-color: black;
+    font-family: Vibes;
+}
+
+.heading_part {
+    background-color: #66f79e;
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.heading_part_content {
+    background-color: #13085c;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 2%;
+    text-align: justify;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+/*  */
+
+video{
+    width: 450px;
+    height: 340px;
+    border: white 10px double;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+canvas{
+margin-left: 2%;
+}
+
+/*  */
+.footer_part {
+    background-color: #d9294e;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .heading_part {
+        font-size: 25px;
+    }
+
+    .heading_part_content {
+        background-color: #13085c;
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 2%;
+    }
+}
+
+canvas{
+    background-color: white;
+}
